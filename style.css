@@ -1,0 +1,88 @@
+body {
+    background-color: #E7EDF3;
+}
+
+.navigation__link {
+    color: #F6BB01;
+    text-decoration: none;
+}
+
+.navigation {
+    position: fixed;
+    top:5px;
+    text-decoration: none;
+    background: rgb(155, 159, 163);
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.article {
+    max-width: 600px;
+    padding: 5px;
+    margin: 50px auto;
+}
+
+.article__image {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    float:left;
+    margin: 0 16px 0;
+}
+
+.article__title {
+    color: #020203;
+    font-size: 35px
+}
+
+.article__title--accessories {
+    color: #020203;
+    font-size: 25px
+}
+.article__description--accessories {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.article__description--gear {
+    max-width: 600px;
+    padding: 5px;
+    margin: 50px auto;
+}
+.article__title--gear {
+    color: #020203;
+    font-size: 25px
+}
+
+.article__description {
+    background-color: #D2D8DD;
+    border-radius: 10px;
+}
+
+.article__description--main  {
+    overflow: hidden;
+    border-bottom: 1px #F6BB01 solid;
+    padding-bottom: 10px;
+}
+
+.article__link {
+    color: #F6BB01;
+}
+
+.header__image {
+    width:100vw;
+}
+
+.header {
+    color: #020203;
+    font-size: 70px;
+    padding: 5px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+
+
+
+
