@@ -52,19 +52,10 @@ function calculate (x) {
 }
 
 console.log(calculate(2));
-const myCalculation = calculate(4);
-console.log(myCalculation);
 
-
-const calculateFat = (x) => {
-    x = x + 3;
-    console.log(`fat: ${x}`);
-    return x*7 
-}
+const calculateFat = x => (x+3)*7;
 
 console.log(calculateFat(2));
-const myCalculationFat = calculate(4);
-console.log(myCalculationFat);
 
 
 
