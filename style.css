@@ -58,6 +58,7 @@ body {
 .article__description {
     background-color: #e4d091;
     border-radius: 10px;
+    line-height: 20px;
 }
 
 .article__description--main  {
