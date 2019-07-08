@@ -24,6 +24,23 @@
     color: #F6BB01;
 }
 
+.about__shopDetails {
+    max-width: 600px;
+    padding: 5px;
+    margin: 10px auto;
+    color: rgb(0, 0, 0);
+}
+
+.about__shopDetails--list {
+    color: #F6BB01;
+    list-style: none;
+}
+
+.about__shopDetails--title {
+
+}
+
+
 .footer {
     color:#F6BB01;
 }
