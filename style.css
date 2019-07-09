@@ -11,7 +11,7 @@ body {
     position: fixed;
     top:5px;
     text-decoration: none;
-    background: rgb(155, 159, 163);
+    background: #45484c;
     width: 100vw;
     box-sizing: border-box;
 }
@@ -51,7 +51,7 @@ body {
 .article__description--gear {
     max-width: 600px;
     padding: 5px;
-    margin: 50px auto;
+    margin: 10px auto;
 }
 .article__title--gear {
     color: #020203;
@@ -59,7 +59,7 @@ body {
 }
 
 .article__description {
-    background-color: #e4d091;
+    background-color: #ffffff;
     border-radius: 10px;
     line-height: 20px;
 }

@@ -1,4 +1,3 @@
-
 .about {
     max-width: 600px;
     padding: 5px;
@@ -30,18 +29,26 @@
 }
 
 .about__size-table {
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+.about__size-table--caption {
+    background: rgb(133, 133, 133);
 }
 
 .about__size-table--th {
+    background: #F6BB01;
 }
 
-.about__size-table--td {
+.about__size-table--td, .about__size-table--th {
+    padding: 5px;
 }
 
 .about__shop-details {
     max-width: 600px;
     padding: 5px;
-    margin: 10px auto;
+    margin: 5px auto;
     color: rgb(0, 0, 0);
 }
 
@@ -50,15 +57,7 @@
     list-style: none;
 }
 
-.about__shop-details--title {
-
-}
-
-
 .footer {
-    color:#F6BB01;
+    color: #F6BB01;
 }
-
-
-
 
