@@ -17,6 +17,11 @@
     margin: 5px auto;
 }
 
+.main__footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .about__paragraph--color {
     max-width: 600px;
     padding: 5px;
@@ -24,19 +29,28 @@
     color: #F6BB01;
 }
 
-.about__shopDetails {
+.about__size-table {
+}
+
+.about__size-table--th {
+}
+
+.about__size-table--td {
+}
+
+.about__shop-details {
     max-width: 600px;
     padding: 5px;
     margin: 10px auto;
     color: rgb(0, 0, 0);
 }
 
-.about__shopDetails--list {
+.about__shop-details--list {
     color: #F6BB01;
     list-style: none;
 }
 
-.about__shopDetails--title {
+.about__shop-details--title {
 
 }
 
