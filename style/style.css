@@ -1,3 +1,13 @@
+*
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
 body {
     background-color: #E7EDF3;
 }
@@ -56,31 +66,29 @@ body {
     margin: 5px auto;
     color: rgb(0, 0, 0);
 }
-
-.about__shop-details--list {
-    color: #F6BB01;
-    list-style: none;
+.navigation {
+    top: 5px;
 }
-
-
 
 .navigation__link {
     color: #F6BB01;
     text-decoration: none;
 }
 
+.about__shop-details--list {
+    color: #F6BB01;
+    list-style: none;
+}
+
 .navigation,navigation__image {
     position: fixed;
-    top: 5px;
+    top: 0px;
     text-decoration: none;
     background: #45484c;
     width: 100vw;
     box-sizing: border-box;
 }
 
-.navigation {
-    top: 5px;
-}
 
 .navigation__image {
     top: 10px;
