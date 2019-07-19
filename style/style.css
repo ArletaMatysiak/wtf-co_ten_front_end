@@ -68,6 +68,7 @@ body {
 }
 .navigation {
     top: 5px;
+    display: flex;
 }
 
 .navigation__link {
@@ -109,8 +110,7 @@ body {
 .article__image {
     width: 100%;
     max-width: 200px;
-    display: block;
-    float: left;
+    display: flex;
     margin: 0 16px 0;
 }
 
@@ -153,6 +153,30 @@ body {
     padding: 5px;
     max-width: 1200px;
     margin: 50px auto;
+}
+
+
+
+.flex {
+
+    border: 1px solid #F6BB01;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    align-content:space-beetween;
+}
+
+.flex__item {
+
+    border: 2px solid #F6BB01;
+    background: #a6b0bd;
+    padding: 16px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    width: 500px;
+    align-content: flex-start;
 }
 
 
