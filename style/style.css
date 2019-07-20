@@ -66,40 +66,12 @@ body {
     margin: 5px auto;
     color: rgb(0, 0, 0);
 }
-.navigation {
-    top: 5px;
-    display: flex;
-}
-
-.navigation__link {
-    color: #F6BB01;
-    text-decoration: none;
-}
 
 .about__shop-details--list {
     color: #F6BB01;
     list-style: none;
 }
 
-.navigation,navigation__image {
-    position: fixed;
-    top: 0px;
-    text-decoration: none;
-    background: #45484c;
-    width: 100vw;
-    box-sizing: border-box;
-}
-
-
-.navigation__image {
-    top: 10px;
-    width: 100vw;
-}
-
-
-.navigation__item {
-    display: inline;
-}
 
 .article {
     max-width: 600px;
@@ -155,45 +127,77 @@ body {
     margin: 50px auto;
 }
 
-
-
-.flex {
-
-    border: 1px solid #F6BB01;
-    min-height: 100vh;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-content: space-around;
-    align-items: baseline;
-    
-
-}
-
-.flex__item {
-
-    border: 2px solid #F6BB01;
-    background: #a6b0bd;
-    padding: 16px;
-    text-align: center;
-    font-weight:bold;
-    font-size: 20px;
-    flex-basis: 50px;
-    order: 2;
-    flex-shrink: 1;
-}
-
-.flex__item--bigger {
-    font-size: 50px;
-    flex-shrink: 2;
-}
-
-
-.flex__item--centered {
-
-}
-
-
 .footer {
     color: #F6BB01;
+}
+
+.navigation {
+    top: 5px;
+    display: flex;
+}
+
+.navigation__link {
+    color: #F6BB01;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+.navigation, navigation__image {
+    position: fixed;
+    top: 0px;
+    text-decoration: none;
+    background: #45484c;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.navigation__list {
+    margin: 5px;
+    display: flex;
+    width: 100vw;
+    list-style: none;    
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.navigation__image {
+    top: 10px;
+    width: 100vw;
+
+}
+
+
+.navigation__item {
+    margin: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    flex-basis: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.site {
+    background-image: url('../jpg/road.jpeg');
+    min-height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+.section {
+    background-color: rgba(255, 255, 255, 0.495);
+    top: 500px;
+    margin: 100px auto;
+    width: 30vw;
+    max-height: 300px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.site__small {
+    background: #757F9A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
