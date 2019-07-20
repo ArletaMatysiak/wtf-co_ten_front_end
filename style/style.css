@@ -162,9 +162,12 @@ body {
     border: 1px solid #F6BB01;
     min-height: 100vh;
     display: flex;
-    flex-direction: row wrap;
-    justify-content: space-around;
-    align-content:space-beetween;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: space-around;
+    align-items: baseline;
+    
+
 }
 
 .flex__item {
@@ -175,8 +178,19 @@ body {
     text-align: center;
     font-weight:bold;
     font-size: 20px;
-    width: 500px;
-    align-content: flex-start;
+    flex-basis: 50px;
+    order: 2;
+    flex-shrink: 1;
+}
+
+.flex__item--bigger {
+    font-size: 50px;
+    flex-shrink: 2;
+}
+
+
+.flex__item--centered {
+
 }
 
 
