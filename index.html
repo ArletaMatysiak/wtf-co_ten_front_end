@@ -5,90 +5,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Strona Główna</title>
+    <title>snow.ly </title>
     <link href="style/normalize.css" rel="stylesheet" type="text/css">
     <link href="style/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="site-main">
 
     <header class="site-header">
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a class="navigation__link" href="index.html">Strona Główna</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="podstrona.html">Kolekcja</a>
-                </li>
-            </ul>
-        </nav>
-        <img src="jpg/image.jpg" alt="iceland" class="navigation__image">
+
+        <div>
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="index.html">Strona Główna</a>
+                    </li>
+
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="podstrona.html">O nas</a>
+                    </li>
+                    <li class="navigation__brand">
+                        <h1>
+                            snow.ly 
+                        </h1>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link navigation__link--js" id="alert" href="sklep.html">Sklep online</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Newsletter</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="site-image">
+            <img src="jpg/main5.jpg" alt="iceland" class="site-image">
+        </div>
+
     </header>
 
-    <main>
 
-        <img src="jpg/hat.jpg" alt="yellow winter hat" class="article__image" />
-        <section class="article article--js">
-            <h1 class="article__title">
-                Kim jesteśmy?
-            </h1>
-            <p class="article__description">
-                <i><b>Lorem ipsum dolor</b> amet, consectetur adipiscing elit. Nunc sodales dolor eget ex accumsan
-                    pharetra. Cras a nisi sit amet mi venenatis cursus. Nullam nec consequat metus, ut hendrerit lacus.
-                    Quisque metus eros, aliquam non eleifend et, dignissim vel. pharetra. Cras a nisi sit amet mi
-                </i>
-                <br>
-            </p>
+    <main class="article">
+
+        <section class="article__about article__about--js">
+
+            <div class="article__about article__about--photo">
+                <div class="article__about article__about--placement"></div>
+            </div>
+            <div class="article__about article__about--box">
+                <h1 class="article__title article__title--js">
+                    Kim jesteśmy?
+                </h1>
+                <button class="article__button article___button--js">
+                    zmień treść nagłówka
+                </button>
+                <p class="article__description">
+                    <i><b>Lorem ipsum dolor</b> amet, consectetur adipiscing elit. Nunc sodales dolor eget ex accumsan
+                        pharetra. Cras a nisi sit amet mi venenatis cursus. Nullam nec consequat metus, ut hendrerit
+                        lacus.
+                        Quisque metus eros, aliquam non eleifend et, dignissim vel. pharetra. Cras a nisi sit amet
+                        mi</i>
+                </p>
+            </div>
+
         </section>
 
-        <section class="article">
+        <section class="article__collection">
 
-            <h2 class="article__title">
-                Poznaj naszą kolekcję
-            </h2>
-            <p class="article__description article__description--main">
+            <div class="article__collection article__collection--box">
+                    <h2 class="article__title--big">
+                        Poznaj naszą kolekcję
+                    </h2>
+                    <p class="article__description article__description--big">
 
-                Nec accumsan quam aculis ultricies odio.usce at odio eget nulla
-                tempus
-                tempus nec vitae urna. Aenean quis odio eleifend, rhoncus turpis at, sodales metus. Proin
-                elementum posuere turpis at varius. Quisque egestas tortor non quam pharetra
-                tristique. Sed ut est lacus...<br>
-                <a href="podstrona.html" class="article__link">Obejrzyj kolekcję</a>
+                        Nec accumsan quam aculis ultricies odio.usce at odio eget nulla
+                        tempus
+                        tempus nec vitae urna. Aenean quis odio eleifend, rhoncus turpis at, sodales metus. Proin
+                        elementum posuere turpis at varius. Quisque egestas tortor non quam pharetra
+                        tristique. Sed ut est lacus...<br>
+                        <a href="podstrona.html" class="article__link">Obejrzyj kolekcję</a>
+                    </p>
+            </div>
 
-            </p>
-
-            <h3 class="article__title article__title--small">
-                Odzież
-            </h3>
-            <p class="article__description article__description--short">
-                Curabitur nec accumsan quam.Ut iaculis ultricies odio. Fusce at odio eget
-                nulla tempus tempus
-                nec
-                vitae urna. Aenean quis odio eleifend, rhoncus turpis at, sodales metus. Proin elementum posuere
-                turpis at varius. Quisque egestas tortor non quam pharetra
-                tristique. Sed ut est lacus.<br>
-                <a href="podstrona.html" class="article__link">Obejrzyj kolekcję</a>
-            </p>
+            <div class="article__collection article__collection--photo">
+                        <div class="article__collection article__collection--placement">
+                        </div>
+            </div>
 
 
-            <h3 class="article__title article__title--small">
-                Akcesoria
-            </h3>
-            <p class="article__description article__description--short article__description--js">
-                Curabitur nec accumsan quam.Ut iaculis ultricies odio. Fusce at odio eget
-                nulla tempus tempusnecvitae urna. Aenean quis odio eleifend, rhoncus turpis at, sodales metus.
-                Proin elementum posuere turpis at varius. Quisque egestas tortor non quam pharetra tristique. Sed ut
-                est lacus.
-                <br>
-                <a href="flex.html" class="article__link">Obejrzyj kolekcję</a>
-            </p>
+
+        </section>
+
+        <section class="article__item">
+
+            <div class="article__item--box">
+                
+                <div class="article__item article__item--photo"></div>
+
+                <div class="article__item article__item--description">
+
+                    <h3 class="article__title article__title--small">
+                        Odzież
+                    </h3>
+                    <p class="article__description article__description--small">
+                        Curabitur nec accumsan quam.Ut iaculis ultricies odio. Fusce at odio eget
+                        nulla tempus tempus
+                        nec
+                        vitae urna. Aenean quis odio eleifend, rhoncus turpis at, sodales metus. Proin elementum
+                        posuere
+                        turpis at varius. Quisque egestas tortor non quam pharetra
+                        tristique. Sed ut est lacus.<br>
+                        <a href="podstrona.html" class="article__link">Obejrzyj kolekcję</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="article__item--box">
+
+                <div class="article__item article__item--photo"></div>
+
+                <div class="article__item article__item--description">
+                    
+                    <h3 class="article__title article__title--small">
+                        Akcesoria
+                    </h3>
+                    <p class="article__description article__description--small">
+                        Curabitur nec accumsan quam.Ut iaculis ultricies odio. Fusce at odio eget
+                        nulla tempus tempusnecvitae urna. Aenean quis odio eleifend, rhoncus turpis at, sodales
+                        metus.
+                        Proin elementum posuere turpis at varius. Quisque egestas tortor non quam pharetra
+                        tristique.
+                        Sed ut
+                        est lacus.
+                        <br>
+                        <a href="flex.html" class="article__link">Obejrzyj kolekcję</a>
+                    </p>
+                </div>
+            </div>
+
         </section>
 
     </main>
 
     <footer class="footer">
-        <i>Strona prezentuje kolekcję narciarską marki PA, sezon zima 2021.</i>
+        <i>Strona powstała w trakcie kursu WTF: Co ten Front End</i>
     </footer>
 
 
