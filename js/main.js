@@ -16,7 +16,7 @@ console.log(button)
 button.addEventListener('click', (e) => {
 const header = document.querySelector('.article__title--js');
 header.innerHTML = 'klik, klik';
-header.classList.remove('')
+header.classList.toggle('article__title--red')
 if (header.classList.contains('article__title--red')) {
     console.log('jest klasa');
 } else { 
@@ -43,6 +43,7 @@ const navigationList = document.querySelector('.navigation__list--js');
 
 
 navigationSwitcher.addEventListener('click', (e) => {
+    console.log("toggle");
 navigationList.classList.toggle('navigation__list--visible');
 });
     
