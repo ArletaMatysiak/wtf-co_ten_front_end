@@ -508,6 +508,10 @@ body {
     .navigation__switcher {
         display: flex;
         background: none;
+        border: none;
+        position: absolute;
+        top: 16px;
+        left: 16px;
     }
 
     .navigation {
