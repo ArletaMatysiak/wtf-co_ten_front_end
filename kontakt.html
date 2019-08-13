@@ -45,22 +45,22 @@
 
     <main class="contact-site">
 
-        <header class="contact-site__header">
+        <header class="contact-site contact-site__header">
             <h1> Jak pomożemy Ci pomóc?</h1>
         </header>
 
         <section class="contact">
-            <div class="contact__adress">
+            <div class="contact__box">
                 <h2 class="contact__header"> Kontakt </h2>
                 <p class="contact__paragraph"> Snow.ly <br>
-                        ul. Łąkowa 39/44 <br>
-                        80-769 Gdańsk <br>
-                        Polska <br>
-                        REGON: 00000000000 <br>
-                        NIP:  555-666-777-888 <br>
-                        Nr KRS:  000000000</p>
+                    ul. Łąkowa 39/44 <br>
+                    80-769 Gdańsk <br>
+                    Polska <br>
+                    REGON: 00000000000 <br>
+                    NIP: 555-666-777-888 <br>
+                    Nr KRS: 000000000</p>
             </div>
-            <div class="contact__number">
+            <div class="contact__box">
                 <h2 class="contact__header"> Infolinia </h2>
                 <p class="contact__paragraph"> PN-PT 9:00-19:00 <br>
                     SB 10:00-17:00 </p><br>
@@ -71,50 +71,56 @@
 
         <section class="contact-form">
 
-            <h2>Pomoc</h2>
+            <h2 class="contact-form__header" >Pomoc</h2>
 
-            <form action="http://dev.cotenfrontend.pl" class="contact-form__form">
+            <form class="contact-form__form" action="http://dev.cotenfrontend.pl"  method="POST">
 
-                <div>
-                    <h2> Napisz do nas: </h2>
+                <div class="contact-form__message">
+
+                    <div>
+                        <h2> Napisz do nas: </h2>
+                    </div>
+
+                    <div class="">
+
+                        <p>
+                            <label for="name">Imię: </label>
+                            <input required type="text" placeholder="..." name="name" id="name">
+                        </p>
+
+                        <p>
+                            <label for="surname">Nazwisko: </label>
+                            <input type="text" name="surname" placeholder="..." id="surnname">
+                        </p>
+
+                        <p>
+                            <label for="age"> E-mail </label>
+                            <input type="email" name="email" id="email" placeholder="...@.pl">
+                        </p>
+
+                    </div>
                 </div>
 
-                <div>
-
-                    <p>
-                        <label for="name">Imię: </label>
-                        <input required type="text" placeholder="..." name="name" id="name">
-                    </p>
-
-                    <p>
-                        <label for="surname">Nazwisko: </label>
-                        <input type="text" name="surname" placeholder="..." id="surnname">
-                    </p>
-
-                    <p>
-                        <label for="age"> E-mail </label>
-                        <input type="email" name="email" id="email" placeholder="...@.pl">
-                    </p>
-
-                </div>
-
-                <div>
+                <div class="contact-form__select">
                     <p>
                         <label for="select"> Wybierz dział</label>
                         <select name="select" id="select">
-                            <option value="user selected yes"> Sklep Online </option>
-                            <option value="user selected no"> Sklepy stacjonarne </option>
+                            <option value="user selected Shop online"> Sklep Online </option>
+                            <option value="user selected Shops"> Sklepy stacjonarne </option>
                         </select>
                     </p>
                 </div>
-                <div>
+
+                <div class="contact-form__text" >
                     <p>
                         <label for="textarea"> Wpisz swoją wiadomość: </label><br>
-                        <textarea name="textarea " id="textarea "></textarea>
+                        <textarea class="contact-form__textarea" name="textarea " id="textarea "></textarea>
                     </p>
                 </div>
 
                 <input type="submit" value="wyślij">
+
+            </form>
 
         </section>
 
