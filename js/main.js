@@ -9,8 +9,29 @@ welcome (myName, myWeek);
 
 
 
+const navigationSwitcher = document.querySelector('.navigation__switcher--js');
+const navigationList = document.querySelector('.navigation__list--js');
+
+
+navigationSwitcher.addEventListener('click', (e) => {
+    console.log("toggle");
+navigationList.classList.toggle('navigation__list--visible');
+});
+    
+
+
 const button = document.querySelector('.article___button--js');
 console.log(button)
+
+function oknoAlert () {
+    alert('w budowie');
+}
+
+
+document.querySelector('.navigation__link--js').addEventListener('click', function () {
+    oknoAlert();
+});
+
 
 
 button.addEventListener('click', (e) => {
@@ -24,29 +45,6 @@ if (header.classList.contains('article__title--red')) {
 }
 });
 
-
-
-function oknoAlert () {
-    alert('w budowie');
-}
-
-
-document.querySelector('.navigation__link--js').addEventListener('click', function () {
-    oknoAlert();
-});
-
-
-
-
-const navigationSwitcher = document.querySelector('.navigation__switcher--js');
-const navigationList = document.querySelector('.navigation__list--js');
-
-
-navigationSwitcher.addEventListener('click', (e) => {
-    console.log("toggle");
-navigationList.classList.toggle('navigation__list--visible');
-});
-    
 
 
 

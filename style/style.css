@@ -383,6 +383,46 @@ body {
     color: #F6BB01;
 }
 
+
+.contact-site {
+    padding-top: 150px;
+    display: grid;
+    grid-template-areas: "header header"
+    "about content";
+    grid-column-gap: 16px;
+}
+
+
+.contact-site__header {
+    margin: 0px auto;
+    grid-area: header;
+}
+
+
+.contact {
+    margin: 0px auto;
+    grid-area: about;
+
+}
+
+.contact__number {
+    grid-area: content;
+
+}
+
+.contact-form {
+   padding-left; 100px;
+}
+
+
+@media (max-width: 640px) {
+    .contact-site {
+        grid-template-areas: "header"
+        "content"
+        "about";
+    }
+}
+
 .grid {
     display: grid;
     grid-template-areas: "header header header" "content.menu" "footer footer footer";
@@ -511,7 +551,7 @@ body {
         border: none;
         position: absolute;
         top: 16px;
-        left: 16px;
+        right: 16px;
     }
 
     .navigation {
