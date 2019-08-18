@@ -417,8 +417,16 @@ body {
 .contact-form__textarea {
     width: 270px;
     height: 140px;
+    
 }
 
+
+.contact__header::before {
+    content:"/";
+    background-color:  black;
+    box-sizing: border-box;
+    margin: 1px;
+}
 
 @media (max-width: 640px) {
     .contact-site {
@@ -600,7 +608,29 @@ body {
     text-align: center;
 }
 
-.site-main {}
+.site-main__footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+.subscription {
+    box-sizing: border-box;
+    padding-top: 145px;
+}
+
+.subscription__container {
+    box-sizing: border-box;
+    padding-top: 16px;
+}
+
+
+.subscription__preferences {
+    box-sizing: border-box;
+    padding-top: 45px;
+
+}
+
 
 .form {
     display: flex;
