@@ -90,7 +90,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color: #020203;
+    background-color: #bebebe;
 }
 
 .about__box--item {
@@ -103,11 +103,14 @@ body {
     align-self: center;
 }
 
+
 .about__box--item-link {
+    color: black;
     text-decoration: none;
-    text-size-adjust: 16px;
-    color: white;
-    background:
+}
+
+.about__box--item-link:visited {
+    color: whitesmoke;
 }
 
 .about__footer {
@@ -380,6 +383,12 @@ body {
 }
 
 .article__link {
+    color: black;
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.article__link:hover {
     color: #F6BB01;
 }
 
@@ -436,8 +445,6 @@ body {
     }
 }
 
-
-.contact-form__textarea
 
 .grid {
     display: grid;
@@ -622,6 +629,11 @@ body {
 .subscription__container {
     box-sizing: border-box;
     padding-top: 16px;
+}
+
+
+.subscription__container--email:focus {
+    background: #F6BB01;
 }
 
 
